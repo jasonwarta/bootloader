@@ -2,3 +2,7 @@ bochsout.txt
 floppy.img
 temp.bin
 temp.o
+test.bin
+test.elf
+test.ld
+test.o
