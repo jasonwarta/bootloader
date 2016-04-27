@@ -30,5 +30,6 @@ _boot:
 
      #move to 510th byte from the start and append boot signature
      . = _start + 510
-     .byte 0x55
-     .byte 0xaa  
+     .short 0xaa55
+;     .byte 0xaa  
+
