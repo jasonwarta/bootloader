@@ -22,7 +22,7 @@ void printString(const char* str) {
  * getInput()
  * read and discard character from stdin
  */
-void consumeInput {
+void consumeInput () {
      	__asm__ __volatile__ ("xorw %ax, %ax\nint $0x16\n");
 }
 
@@ -61,7 +61,7 @@ void initGraphics() {
      	int cnt1 = 0, cnt2 =0;
      	unsigned char color = 10;
 
-     	while (true)  {
+     	while (1)  {
           	if(m < (ROWS - m)) {
                		++cnt1;
           	}
